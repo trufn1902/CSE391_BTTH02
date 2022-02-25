@@ -1,180 +1,31 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+.carousel-control-prev{
+    left: -6%;
 }
 
-/* CSS for Header */
-
-#header{
-    width: 100%;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    box-shadow: 0 4px 8px -2px gray;
-    position: relative;
-    z-index: 2;
+.carousel-control-next{
+    right: -6%;
 }
 
-#header .header-inner{
-    width: 80%;
-    height: 100%;
-    display: flex;
-    /* background-color: aqua; */
-}
-
-#header .header-inner .logo{
-    width: 25%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.logo img{
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#header .header-inner .nav{
-    width: 75%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.main-menu{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.main-menu>li{
-    margin-right: 10px;
-    width: fit-content;
-    padding: 5px;
-    position: relative;
-}
-
-.main-menu>li>a{
-    text-decoration: none;
-    color: #020516;
-    text-transform: uppercase;
-    font-family: 'Archivo', sans-serif;
-}
-
-.main-menu>li>a.active{
-    color: #0b249e;
-    text-shadow: 1px 1px #f5eeee;
-}
-
-.sub-menu{
-    display: none;
-}
-
-.main-menu>li:hover .sub-menu{
-    display: block;
-    position: absolute;
-    top: 30px;
-    left: 0;
-    background-color: #f4f4f4;
-    padding: 10px;
-    width: max-content;
-}
-
-.main-menu>li:hover .sub-menu li{
-    padding: 5px;
+#intro h3, #intro h4{
+    text-align: center;
+    font-weight: 600;
     margin-bottom: 10px;
-    border-bottom: 1px solid #000;
+    text-transform: uppercase;
 }
 
-.main-menu>li:hover .sub-menu li a{
-    text-decoration: none;
-    color: black;
-    font-family: 'Archivo', sans-serif;
+#intro h3{
+    font-size: 27px;
+    color: #3e3d3d;
+    line-height: 48.6px;
 }
 
-/* CSS for Slider */
-
-#slider{
-    width: 100%;
-    display: flex;
-    position: relative;
+#intro h4{
+    font-size: 16px;
+    line-height: 28.8px;
+    color: #000;
+    margin-bottom: 30px;
 }
-
-.slide-item{
-    width: 100%;
-    height: 100%;
-}
-
-.slide-item img{
-    width: 100%;
-    max-height: 100%;
-}
-
-span .fa-chevron-left{
-    width: 30px;
-    height: 5%;
-    position: absolute;
-    top: 45%;
-    left: 10px;
-    color: white;
-    font-size: 30px;
-}
-
-span .fa-chevron-right{
-    width: 30px;
-    height: 5%;
-    position: absolute;
-    top: 45%;
-    right: 10px;
-    color: white;
-    font-size: 30px;
-}
-
-/* CSS for Intro */
 
 #intro{
-    display: flex;
-    justify-content: center;
-    padding: 60px 0;
-}
-
-.intro-inner{
-    width: 80%;
-}
-
-.intro-inner h3{
-    font-size: 1.75rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.intro-inner h4{
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.intro-content{
-    display: flex;
-    justify-content: space-around;
-}
-
-.intro-content .intro-item{
-    width: 28%;
-    padding: 18px;
-    border: 1px solid #e1e0e0;
-}
-
-.intro-content .intro-item img{
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.intro-content .intro-item p{
-    text-align: justify;
-    margin-top: 20px;
-    line-height: 23px;
+    width: 70%;
 }
