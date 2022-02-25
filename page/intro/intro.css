@@ -1,4 +1,8 @@
 /* CSS for All */
+a{
+    text-decoration: none;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,6 +15,7 @@ body{
     height: 90px;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 #header .header-inner{
@@ -90,5 +95,167 @@ body{
 }
 
 
+/* css for wrapper */
+#wrapper{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.primary-content-area{
+    width: 70%;
+}
+.primary-content-area .h2{
+        color: #0b249e;
+        font-weight: 600;
+        font-size: 17px;
+}
+.content>h2{
+    color: #0b249e;
+    line-height: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.content p{
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+#wrapper .right-slidebar{
+    width: 30%;
+    margin-left: 10%;
+    
+}
+#wrapper .right-slidebar p{
+    line-height: 30px;
+}
+#wrapper .right-slidebar .slidebar-inner{
+    max-width: 100%;
+    margin-right: 20px;
+}
+#wrapper .right-slidebar .slidebar-inner .logo {
+    width: 100%;
+}
+#wrapper .right-slidebar .slidebar-inner input{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+}
+.slidebar-inner h4{
+    font-weight: 600;
+    padding: 0px 20px;
+    border-left: 2px solid #0000b5;
+    margin: 15px 0;
+}
+.slidebar-inner ul>li{
+    margin: 10px 0;
+    line-height: 24px;
+    border-bottom: 1px solid rgb(233,233,233);
+    padding-bottom: 5px;
+}
+.slidebar-inner ul>li:first-child{
+    border-top: 1px solid rgb(233,233,233);
+    padding-top: 5px;
+}
 
 
+
+
+
+/* CSS for footer */
+.partner-slideshow{
+    margin: 40px;
+}
+.partner-slideshow h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+}
+.partner-slideshow .slideshow{
+    height: 100px;
+    display: flex;
+    width: 100%;
+   
+}
+.partner-slideshow .slideshow div{
+    position: relative;
+    height: 100%;
+    width: 18%; 
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 20px 10px;
+}
+.partner-slideshow .slideshow div img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    
+}
+.footer-container{
+    height: 500px;
+    width: 100%;
+    background-color: #2f319e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container .sub-footer{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-container .sub-footer .footer-inner{
+    height: 90%;
+    width: 33%;
+    /* background-color: antiquewhite; */
+}
+.footer-container .sub-footer .footer-inner h2{
+    color: white !important;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 30px 0;
+    
+}
+.footer-container .sub-footer .footer-inner ul{
+    color: white;
+    line-height: 40px;
+    margin-left: 30px;
+    list-style: disc;
+    font-size: 17px;
+}
+.footer-container .sub-footer .footer-inner div{
+    color: white;
+    max-width: 90%;
+    line-height: 30px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.footer-container .sub-footer .footer-inner input{
+    margin: 10px 0;
+    height: 40px;
+    width: 100%;
+}
+/* .footer-container .sub-footer .footer-inner input:first-child{
+    margin-top: 0px;
+} */
+.footer-container .sub-footer .footer-inner button{
+    margin-top: 20px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: #ebd017;
+    width: 100%;
+    font-weight: 600;
+
+}
+.footer-container .sub-footer .footer-inner button:hover{
+    background-color: #008fca;
+    color: white;
+}
