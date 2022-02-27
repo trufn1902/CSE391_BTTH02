@@ -60,7 +60,7 @@ body{
     font-family: 'Archivo', sans-serif;
 }
 
-.main-menu>li>a.active{
+.main-menu > li > a.active{
     color: #0b249e;
     text-shadow: 1px 1px #f5eeee;
 }
@@ -69,7 +69,7 @@ body{
     display: none;
 }
 
-.main-menu>li:hover .sub-menu{
+.main-menu > li:hover .sub-menu{
     display: block;
     position: absolute;
     top: 30px;
@@ -79,7 +79,7 @@ body{
     width: max-content;
 }
 
-.main-menu>li:hover .sub-menu li{
+.main-menu > li:hover .sub-menu li{
     padding: 5px;
     margin-bottom: 10px;
     border-bottom: 1px solid #000;
@@ -91,7 +91,7 @@ body{
     font-family: 'Archivo', sans-serif;
 }
 
-.main-menu>li .sub-menu > li:hover .sub-menu-2{
+.main-menu>li:hover .sub-menu > li:hover .sub-menu-2{
     display: block;
     position: absolute;
     top: 60%;
@@ -101,13 +101,13 @@ body{
     width: max-content;
 }
 
-.main-menu>li .sub-menu > li:hover .sub-menu-2 li{
+.main-menu>li:hover .sub-menu > li:hover .sub-menu-2 li{
     padding: 5px;
     margin-bottom: 10px;
     border-bottom: 1px solid #000;
 }
 
-.main-menu>li .sub-menu > li:hover .sub-menu-2 a{
+.main-menu>li:hover .sub-menu > li:hover .sub-menu-2 a{
     text-decoration: none;
     color: black;
     font-family: 'Archivo', sans-serif;
