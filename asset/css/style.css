@@ -112,3 +112,69 @@ body{
     color: black;
     font-family: 'Archivo', sans-serif;
 }
+
+/* CSS for Footer */
+
+.footer-container{
+    height: 500px;
+    width: 100%;
+    background-color: #2f319e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container .sub-footer{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-container .sub-footer .footer-inner{
+    height: 90%;
+    width: 33%;
+    /* background-color: antiquewhite; */
+}
+.footer-container .sub-footer .footer-inner h2{
+    color: white !important;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 30px 0;
+    
+}
+.footer-container .sub-footer .footer-inner ul{
+    color: white;
+    line-height: 40px;
+    margin-left: 30px;
+    list-style: disc;
+    font-size: 17px;
+}
+.footer-container .sub-footer .footer-inner div{
+    color: white;
+    max-width: 90%;
+    line-height: 30px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.footer-container .sub-footer .footer-inner input{
+    margin: 10px 0;
+    height: 40px;
+    width: 100%;
+}
+/* .footer-container .sub-footer .footer-inner input:first-child{
+    margin-top: 0px;
+} */
+.footer-container .sub-footer .footer-inner button{
+    margin-top: 20px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: #ebd017;
+    width: 100%;
+    font-weight: 600;
+
+}
+.footer-container .sub-footer .footer-inner button:hover{
+    background-color: #008fca;
+    color: white;
+}
