@@ -11,6 +11,7 @@
     font-weight: 600;
     margin-bottom: 10px;
     text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #intro h3{
@@ -28,4 +29,141 @@
 
 #intro{
     width: 70%;
+}
+
+.content .row{
+    margin-top: 100px;
+    background: linear-gradient(to bottom, #0B249E, #9b51e0);
+    max-height: 100vh;
+    justify-content: center;
+}
+
+.content .row .col-6 img{
+    max-width: 100%;
+}
+
+.content .row .col h3{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 27px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    line-height: 38px;
+    margin-top: 50px;
+}
+
+.content .row .col .col-12 h4{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #f5ec10;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 39px;
+    margin-top: 50px;
+    border: 2px solid #f5ec10;
+    padding: 10px 25px;
+    width: fit-content;
+    display: inline-block;
+}
+
+.content .row > .col{
+    text-align: center;
+}
+
+.content .row .col .col-12{
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+}
+
+.content .row .col{
+    max-width: 40%;
+}
+
+.content .row .col .col-12 .form-select,
+.content .row .col .col-12 .mb-3,
+.content .row .col .col-12 .d-grid{
+    width: 80%;
+    display: inline-block;
+}
+
+::placeholder{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+}
+
+.form-select{
+    font-family: 'Roboto', sans-serif;
+}
+
+.content .row .col .col-12 .mb-3:last-child input{
+    height: calc(10.5rem + 2px);
+}
+
+.content .row .col .col-12 .d-grid{
+    position: relative;
+    left: 10%;
+}
+
+.btn-primary{
+    color: #000;
+    background-color: #edb017;
+    border-color: #edb017;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.join .row{
+    margin-top: 100px;
+}
+
+.join .row .col-4{
+    border-right: 3px solid #ff7b06;
+}
+
+.join .row .col-7{
+    border-left: 3px solid #ff7b06;
+}
+
+.join .row .col-4 h1{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0b249e;
+    line-height: 54px;
+    text-align: center;
+}
+
+.join .row .col-4 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+
+.join .row .col-7 h1{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 31.5px;
+    text-align: center;
+}
+
+.join .row .col-7 .btn-primary{
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: fit-content;
+    position: relative;
+    left: 40%;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #0C9841;
 }
