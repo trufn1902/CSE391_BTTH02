@@ -1,226 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-            crossorigin="anonymous"
-        />
-        <title>Khóa học Lập Trình Web FullStack</title>
-    </head>
-    <body>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="#"
-                                ><img src="../asset/images/logo.png" alt=""
-                            /></a>
-                            <button
-                                class="navbar-toggler"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent"
-                                aria-controls="navbarSupportedContent"
-                                aria-expanded="false"
-                                aria-label="Toggle navigation"
-                            >
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div
-                                class="collapse navbar-collapse"
-                                id="navbarSupportedContent"
-                            >
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a
-                                            class="nav-link active"
-                                            aria-current="page"
-                                            href="#"
-                                            >Trang chủ</a
-                                        >
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a
-                                            class="nav-link dropdown-toggle"
-                                            href="#"
-                                            id="navbarDropdown"
-                                            role="button"
-                                            data-bs-toggle="dropdown"
-                                            aria-expanded="false"
-                                            >Hanoi-Aptech</a
-                                        >
-                                        <ul
-                                            class="dropdown-menu"
-                                            aria-labelledby="navbarDropdown"
-                                        >
-                                            <li>
-                                                <a
-                                                    class="dropdown-item"
-                                                    href="#"
-                                                    >Giới thiệu</a
-                                                >
-                                            </li>
-                                            <li>
-                                                <a
-                                                    class="dropdown-item"
-                                                    href="#"
-                                                    >Cơ sở vật chất</a
-                                                >
-                                            </li>
-                                            <li>
-                                                <a
-                                                    class="dropdown-item"
-                                                    href="#"
-                                                    >Giảng viên</a
-                                                >
-                                            </li>
-                                            <li>
-                                                <a
-                                                    class="dropdown-item"
-                                                    href="#"
-                                                    >Hỏi đáp</a
-                                                >
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a
-                                            class="nav-link dropdown-toggle"
-                                            href="#"
-                                            id="navbarDropdown"
-                                            role="button"
-                                            data-bs-toggle="dropdown"
-                                            aria-expanded="false"
-                                        >
-                                            Chương trình đào tạo
-                                        </a>
-                                        <ul
-                                            class="dropdown-menu"
-                                            aria-labelledby="navbarDropdown"
-                                        >
-                                            <li>
-                                                <a
-                                                    class="dropdown-item"
-                                                    href="#"
-                                                    >Lập Trình Viên Quốc Tế ADSE</a
-                                                >
-                                            </li>
-                                            <li>
-                                                <a
-                                                    class="dropdown-item"
-                                                    href="#"
-                                                    >Lập Trình Web FullStack</a
-                                                >
-                                            </li>
-                                            <li>
-                                                <hr class="dropdown-divider" />
-                                            </li>
-                                            <li>
-                                                <a
-                                                    class="dropdown-item"
-                                                    href="#"
-                                                    >Các khóa ngắn hạn</a
-                                                >
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a
-                                            class="nav-link active"
-                                            aria-current="page"
-                                            href="#"
-                                            >Liên thông</a
-                                        >
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a
-                                            class="nav-link dropdown-toggle"
-                                            href="#"
-                                            id="navbarDropdown"
-                                            role="button"
-                                            data-bs-toggle="dropdown"
-                                            aria-expanded="false"
-                                        >
-                                            Tin tức
-                                        </a>
-                                        <ul
-                                            class="dropdown-menu"
-                                            aria-labelledby="navbarDropdown"
-                                        >
-                                            <li>
-                                                <a
-                                                    class="dropdown-item"
-                                                    href="#"
-                                                    >Tin về CNTT</a
-                                                >
-                                            </li>
-                                            <li>
-                                                <a
-                                                    class="dropdown-item"
-                                                    href="#"
-                                                    >Lịch thi</a
-                                                >
-                                            </li>
-                                            <li>
-                                                <a
-                                                    class="dropdown-item"
-                                                    href="#"
-                                                    >Lịch tuyển sinh</a
-                                                >
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a
-                                            class="nav-link dropdown-toggle"
-                                            href="#"
-                                            id="navbarDropdown"
-                                            role="button"
-                                            data-bs-toggle="dropdown"
-                                            aria-expanded="false"
-                                        >
-                                            Tuyển dụng
-                                        </a>
-                                        <ul
-                                            class="dropdown-menu"
-                                            aria-labelledby="navbarDropdown"
-                                        >
-                                            <li>
-                                                <a
-                                                    class="dropdown-item"
-                                                    href="#"
-                                                    >Tin tuyển dụng</a
-                                                >
-                                            </li>
-                                            <li>
-                                                <a
-                                                    class="dropdown-item"
-                                                    href="#"
-                                                    >Góc nghề nghiệp</a
-                                                >
-                                            </li>
-                                            
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khóa học Lập Trinh Web FullStack</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style_training.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img src="images/logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Hanoi-Aptech
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Giới thiệu</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Cơ sở vật chất</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Giảng viên</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Hỏi đáp</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Chương trình đào tạo
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Lập Trình Viên Quốc Tế ADSE</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Lập Trình Web FullStack</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li class="Submenu">
+                        <a class="dropdown-item-file" href="#">Các khóa ngắn hạn</a>
+                        <ul class="Sub-menu">
+                          <li><a href="">Khóa Quản Trị Mạng</a></li>
+                          <hr>
+                          <li><a href="">Lập Trình Java</a></li>
+                          <hr>
+                          <li><a href="">Lập Trình .NET</a></li>
+                          <hr>
+                          <li><a href="">Lập Trình C#</a></li>
+                          <hr>
+                          <li><a href="">lập Trình PHP</a></li>
+                          <hr>
+                          <li><a href="">Lập Trình CSDL với SQL</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Liên thông</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Tin tức
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Tin về CNTT</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Lịch thi</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Lịch tuyển sinh</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Tuyển dụng
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Tin tuyển dụng</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Góc nghề nghiệp</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
+          </nav>
+    </header>
+    
+    <img src="images/slide.png" class="img-fluid" alt="...">
 
-        <!-- JS Bootstrap -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+    <div class="container" style="margin-top: 84px;">
+      <div class="row" style="display:flex; justify-content: center; align-items: center;">
+          <div class="col" style="display: flex; justify-content: flex-end; ">
+              <img src="images/img.jpg" alt="" class="">
+          </div>
+          <div class="col">
+              <p class="introduce">Khóa học có tên tiếng Anh là Information Technology Technician (viết tắt là ITT). Đây là chương trình đào tạo của Aptech, nội dung được chuyển ngữ sang Tiếng Việt.</p>
+              <p class="introduce">Chương trình được xây dựng dựa trên các tri thức Công nghệ Thông tin mới nhất với sự khảo sát nhu cầu của trên 600 công ty phần mềm nổi tiếng và được cập nhật hàng năm cho phù hợp với sự phát triển của Công nghệ Thông tin nhằm cung cấp đội ngũ Kỹ Thuật Viên Công nghệ Thông Tin có chuyên môn tốt, có khả năng làm việc trong môi trường chuyên nghiệp và am hiểu công nghệ mới.</p>
+              <p class="introduce">Chương trình cung cấp cho người học các kiến thức nền tảng về máy tính, lập trình, cơ sở dữ liệu, thiết kế và xây dựng trang website bằng ngôn ngữ PHP.</p>
+              <p class="introduce">Ngoài kiến thức chuyên môn, học viên còn được bổ sung các kiến thức để phát triển kỹ năng cá nhân, kỹ năng làm việc nhóm và năng lực quản lý dự án.</p>
+          </div>
+      </div>
+  </div>
+  <div class="container" style="text-align: center; padding: 48px 0px 84px 0px;">
+  <div class="container" style="text-align: center;">
+      <div class="row" style="margin-top: 80px; margin-bottom: 60px; ">
+          <h2>VÌ SAO NÊN HỌC LẬP TRÌNH FULLSTACK WEB DEVELOPER</h2>
+      </div>
+      <div class="row" style="justify-content: space-evenly; width: 80%; margin:0 auto">
+          <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Không lo thất nghiệp</h5>
+                <p class="card-text">80% trong số 10 triệu trang web hàng đầu sử dụng ngôn ngữ lập trình PHP.</p>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Mã nguồn mở và sự tiện lợi</h5>
+              <p class="card-text">PHP không bị ràng buộc bởi các quy tắc; nó giúp cho lập trình viên tự do xây dựng mọi thứ mình muốn.</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Tính năng theo yêu cầu</h5>
+              <p class="card-text">PHP và MySQL có khả năng cung cấp rất nhiều tính năng theo nhu cầu cá nhân của các doanh nghiệp.</p>
+            </div>
+          </div>
+      </div>
+      </div>
+  </div>
+      
+  </div>
+  <div class="container-fluid" style="background-color: transparent; padding: 78px 0px;
+  background-image: linear-gradient(180deg, #0c2d9e 0%, #770bbc 100%);">
+    <h1 class="text-center" style="color: white; font-size: 28px; font-weight: 700px; margin-bottom: 40px;">VỊ TRÍ CÔNG VIỆC SAU KHÓA HỌC</h1>
+      <div class="row" style="justify-content: center;">
+          <div class="card" style="width: 288px; padding: 10px; border: none; border-radius: 0px; margin-right: 20px; height: 258px; ">
+              <img class="card-img-top" src="images/container1.png" alt="">
+              <div class="card-body">
+                <h5 class="card-title text-center" style="color:black; font-size: 15px; font-weight: 700;">Thiết kế & lập trình website hiện đại với nhiều ngôn ngữ lập trình</h5>
+              </div>
+          </div>
+          <div class="card" style="width: 288px; padding: 10px; border: none; border-radius: 0px; margin-right: 20px; height: 258px; ">
+              <img class="card-img-top" src="images/container2.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title text-center " style="color:black; font-size: 15px; font-weight: 700;">Phân tích, thiết kế & lập trình cơ sở dữ liệu</h5>
+              </div>
+          </div>
+          <div class="card" style="width: 288px; padding: 10px; border: none; border-radius: 0px; margin-right: 20px; height: 258px; ">
+              <img class="card-img-top" src="images/container3.png" alt="">
+              <div class="card-body">
+                <h5 class="card-title text-center" style="color:black; font-size: 15px; font-weight: 700; width: 260px">Xây dựng, phát triển các tính năng mới đáp ứng nhu cầu người dùng</h5>
+              </div>
+          </div>
+          <div class="card" style="width: 288px; padding: 10px; border: none; border-radius: 0px; height: 258px; ">
+              <img class="card-img-top" src="images/container4.png" alt="">
+              <div class="card-body">
+                <h5 class="card-title text-center" style="color:black; font-size: 15px; font-weight: 700;">Quản lý và tăng hiệu suất hoạt động của website</h5>
+              </div>
+          </div>
+          <div class="row" style="width: 1350px; margin:0 auto; padding: 25px 0px 40px 0px; ">
+              <p class="text-center" style="color: white; font-size: 20px; font-weight: 600; line-height: 1.4">Chương trình học Kỹ thuật viên Quốc Tế được triển khai dựa trên mô hình đào tạo hiện đại, đa phương thức AMEDA (Aptech Multi-modal Education Delivery Architecture) chú trọng nâng cao kỹ năng thực hành, định hướng, thực hiện các dự án cuối mỗi học kỳ.</p>>
+          </div>
+          <button type="submit" class="btn btn-primary" style="text-transform: uppercase; height: 47px; width: 200px; background-color: #6c0fba; border: 3px solid white; font-weight: 700;  border-radius: 0px;">Đăng ký học <i class="fa-solid fa-angle-down"></i></button>
+      </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="container" style="padding: 64px 0px;">
+      <div class="row">
+          <h2 class="text-center" style="font-size: 25px; line-height: 35px; text-decoration: none solid rgb(0,0,0); font-weight: 700; margin-bottom: 36px;" >ĐỐI TƯỢNG THAM GIA KHÓA HỌC</h2>
+      </div>
+      <div class="row justify-content-center">
+          <div class="card" style="width: 382px;  height: 382px; padding: 17px; border: 2px solid #E1E0E0; border-radius: 0px; margin-right: 34px">
+              <img class="card-img-top" src="images/img4.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title text-center" style="color:black; font-size: 15px; font-weight: 600; line-height: 22.5px ">Sinh viên ngành CNTT hoặc yêu thích lập trình tại các trường đại học, cao đẳng.</h5>
+              </div>
+          </div>
+          <div class="card" style="width: 382px; height: 382px; padding: 17px; border: 2px solid #E1E0E0; border-radius: 0px; margin-right: 34px">
+              <img class="card-img-top" src="images/img5.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title text-center" style="color:black; font-size: 15px; font-weight: 600; line-height: 22.5px; width: 330px; padding: 0 5px 0 0;">Làm việc tại các doanh nghiệp, muốn bổ sung kiến thức & kỹ năng phục vụ công việc.</h5>
+              </div>
+          </div>
+          <div class="card" style="width: 382px; height: 382px; padding: 17px; border: 2px solid #E1E0E0; border-radius: 0px">
+              <img class="card-img-top" src="images/img6.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title text-center" style="color:black; font-size: 15px; font-weight: 600;line-height: 22.5px">Chưa có kiến thức về lập trình cũng có thể tham gia khóa học.</h5>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="container-fluid" style="background-color: transparent; padding: 78px 230px;
+  background-image: linear-gradient(180deg, #0920a1 0%, #1f05d0 100%);" >
+    <div class="row">
+      <div class="col">
+        <h3 style="text-transform: uppercase; font-size: 24px; font-weight: 700; line-height: 28.8px; color:#FFFD09; text-align: center;">Khóa học lập trình web fullstack</h3>
+        <h4 class="h4 mb-5" style="text-transform: uppercase; font-size: 20px; font-weight: 700; line-height: 28px; color: #FFFFFF; text-align: center;">Lập trình chất - phất tương lai</h4>
+        <input class="form-control mb-3" type="text" placeholder="Họ và Tên" aria-label="default input example" style="width: 492px; ">
+        <input class="form-control mb-3" type="text" placeholder="Email" aria-label="default input example" style="width: 492px;">
+        <input class="form-control mb-3" type="text" placeholder="Số điện thoại" aria-label="default input example" style="width: 492px;">
+        <input class="form-control mb-3" type="text" placeholder="Địa chỉ" aria-label="default input example" style="width: 492px;">
+        <select class="form-select mb-5" aria-label="Default select example" style="width: 492px; ">
+          <option selected>Trình độ</option>
+          <option value="1">Học sinh</option>
+          <option value="2">Sinh viên</option>
+          <option value="3">Đi làm</option>
+          <option value="4">Khác</option>
+        </select>
+        <button type="submit" class="btn btn-primary" style="text-transform: uppercase; height: 40px; width: 492px; background-color: #EDB017; font-weight: 700; color: black;">Gửi đăng ký</button>
+      </div>
+      <div class="col" style="padding: 0 30px">
+        <h6 style="color: white; line-height: 28.8px; padding: 10px 0 0 50px"><i class="fa-solid fa-bookmark" style="width: 25px; color: #F2E403"></i> Thời lượng: 226 giờ - 6 tháng</h6>
+        <h6 style="color: white; line-height: 28.8px; padding: 8px 0 0 50px"><i class="fa-solid fa-bookmark" style="width: 25px; color: #F2E403"></i> Khai giảng dự kiến: Tháng 2/2022</h6>
+        <h6 style="color: white; line-height: 28.8px; padding: 8px 0 0 50px; width: 482px;"><i class="fa-solid fa-bookmark" style="width: 25px; color: #F2E403"></i> Có nhiều khung giờ phù hợp với mọi nhu cầu của học viên</h6>
+        <h6 style="color: white; line-height: 28.8px; padding: 8px 0 0 80px"><i class="fa-solid fa-clock" style="width: 25px; color: #F2E403"></i> Giờ buổi sáng: học từ 8h đến 12h</h6>
+        <h6 style="color: white; line-height: 28.8px; padding: 8px 0 0 80px;"><i class="fa-solid fa-clock" style="width: 25px; color: #F2E403"></i> Giờ buổi chiều: học từ 13h30 đến 17h30</h6>
+        <h6 style="color: white; line-height: 28.8px; padding: 8px 0 0 80px"><i class="fa-solid fa-clock" style="width: 25px; color: #F2E403"></i> Giờ buổi tối: học từ 17h30 đến 19h30 hoặc từ 19h30 đến 21h30</h6>
+        <h6 style="color: white; line-height: 28.8px; padding: 8px 0 0 50px; width: 482px;"><i class="fa-solid fa-bookmark" style="width: 25px; color: #F2E403"></i> Địa chỉ: Tầng 1, Tòa nhà C5, Đại học Thủy Lợi, 175 Tây Sơn, Trung Liệt, Đống Đa, Hà Nội</h6>
+        <h6 style="color: white; line-height: 28.8px; padding: 8px 0 0 50px; width: 482px;"><i class="fa-solid fa-bookmark" style="width: 25px; color: #F2E403"></i> Đăng ký trực tuyến vào form dưới đây hoặc gọi điện đến hotline 0382.020.858 hoặc 0243.563.7511 để được tư vấn trực tiếp</h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" style="background-color: #EAEAEA;">
+    <h3 style="text-transform: uppercase; font-size: 25px; font-family: Arial, sans-serif; font-weight: 700; text-align: center; padding: 100px 0 70px 0">Nội dung khóa học</h3>
+    <div class="row justify-content-center">
+      <div class="col-4">
+        ẢNH
+      </div>
+      <div class="col-4">
+        <h6>1. HTML5, CSS and Javascript – 40 giờ</h6>
+        <h6 style="padding: 13px 0 0 0">2. BootStrap and Jquery – 16 giờ</h6>
+        <h6 style="padding: 13px 0 0 0">3. eProject (Website Development) – 8 giờ</h6>
+        <h6 style="padding: 13px 0 0 0">4. Data Management with SQL Server – 30 giờ</h6>
+        <h6 style="padding: 13px 0 0 0">5. Web Application Development using PHP – 40 giờ</h6>
+        <h6 style="padding: 13px 0 0 0">6. PHP Development with Laravel Framework – 24 giờ</h6>
+        <h6 style="padding: 13px 0 0 0">7. Project PHP – 8 giờ</h6>
+        <h6 style="padding: 33px 0 0 0; font-weight: 600; font-family: Arial, sans-serif;">Học phí khóa học</h6>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
 </html>
