@@ -61,7 +61,7 @@ body{
 }
 
 .main-menu>li>a.active{
-    /* color: #0b249e; */
+    color: #0b249e;
     text-shadow: 1px 1px #f5eeee;
 }
 
