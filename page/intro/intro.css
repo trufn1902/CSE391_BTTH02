@@ -179,21 +179,15 @@ body{
    
 }
 .partner-slideshow .slideshow div{
-    position: relative;
     height: 100%;
     width: 18%; 
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
     margin: 20px 10px;
+    display: flex;
+    flex: 1;
 }
 .partner-slideshow .slideshow div img{
-    width: 100%;
-    object-fit: cover;
+    max-width: 100%;
     max-height: 100%;
-    align-items: center;
-    justify-content: space-around;
-    position: absolute;
     
 }
 .footer-container{
