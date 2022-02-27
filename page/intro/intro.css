@@ -9,90 +9,7 @@ body{
 
 
 
-/* CSS for header */
-#header{
-    width: 100%;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
 
-#header .header-inner{
-    width: 75%;
-    /* background-color: antiquewhite; */
-    display: flex;
-}
-
-#header .header-inner .logo{
-    width: 25%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-#header .header-inner .nav{
-    width: 80%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.main-menu{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Archivo',sans-serif;
-}
-.main-menu>li{
-    width: fit-content;
-    margin-right: 15px;
-    padding: 2px;
-    position: relative;
-}
-
-.main-menu>li>a{
-    text-decoration: none;
-    color: #020516;
-    text-transform: uppercase;
-    font-weight: 600; 
-}
-
-.main-menu>li>a.active{
-    /* color: #0b249e; */
-    
-}
-
-.sub-menu{
-    display: none;
-}
-.sub-menu>li{
-    color: #020516;
-    font-weight: 600;
-
-}
-
-.main-menu>li:hover .sub-menu
-{
-    display: block;
-    position:absolute;
-    top: 25px;
-    left: 0%;
-    background-color: #f4f4f4;
-    padding: 10px;
-    width: max-content;
-}
-
-.main-menu>li:hover .sub-menu li{
-    padding: 5px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #000;
-}
-
-.main-menu>li:hover .sub-menu li>a{
-    text-decoration: none;
-    color: black;
-}
 
 
 /* css for wrapper */
@@ -179,21 +96,15 @@ body{
    
 }
 .partner-slideshow .slideshow div{
-    position: relative;
     height: 100%;
     width: 18%; 
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
     margin: 20px 10px;
+    display: flex;
+    flex: 1;
 }
 .partner-slideshow .slideshow div img{
-    width: 100%;
-    object-fit: cover;
+    max-width: 100%;
     max-height: 100%;
-    align-items: center;
-    justify-content: space-around;
-    position: absolute;
     
 }
 .footer-container{
@@ -253,6 +164,8 @@ body{
     background-color: #ebd017;
     width: 100%;
     font-weight: 600;
+    border-radius: 5px;
+    border: none;
 
 }
 .footer-container .sub-footer .footer-inner button:hover{
