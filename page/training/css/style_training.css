@@ -110,6 +110,8 @@ ul.navbar-nav li a:hover{
     margin: 10px 0;
     height: 40px;
     width: 100%;
+    border-radius: 5px;
+
 }
 /* .footer-container .sub-footer .footer-inner input:first-child{
     margin-top: 0px;
@@ -121,6 +123,8 @@ ul.navbar-nav li a:hover{
     background-color: #ebd017;
     width: 100%;
     font-weight: 600;
+    border-radius: 5px;
+    border: none;
 
 }
 .footer-container .sub-footer .footer-inner button:hover{
